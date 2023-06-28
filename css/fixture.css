@@ -1,0 +1,74 @@
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+}
+
+.container-teams {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container1 {
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(88,89,85,0.62);
+    border-radius: 15px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #212121;
+    margin-bottom: 30px;
+}
+
+.team1, .team2 {
+    background-image: none;
+}
+
+.escudo {
+    width: 150px;
+}
+
+.equipo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ubi {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+}
+
+.fecha {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1250px) {
+    .container-teams {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .container-teams {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
