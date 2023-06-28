@@ -101,6 +101,10 @@ button {
     cursor: pointer;
 }
 
+.button {
+    color: white;
+}
+
 .list {
     display: grid;
     justify-content: center;
